@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "simplenetherite",
+	"version": "${version}",
+	"name": "SimpleNetherite",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/simplenetherite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.scaredrabbit.simplenetherite.SimpleNetherite"
+		],
+		"client": [
+			"net.scaredrabbit.simplenetherite.SimpleNetheriteClient"
+		],
+		"fabric-datagen": [
+			"net.scaredrabbit.simplenetherite.SimpleNetheriteDataGenerator"
+		]
+	},
+	"mixins": [
+		"simplenetherite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.12",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
