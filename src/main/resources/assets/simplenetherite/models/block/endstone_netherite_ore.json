@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "simplenetherite:block/endstone_netherite_ore"
+  }
+}

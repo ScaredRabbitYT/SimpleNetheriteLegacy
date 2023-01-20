@@ -22,7 +22,7 @@
 			"net.scaredrabbit.simplenetherite.SimpleNetheriteClient"
 		],
 		"fabric-datagen": [
-			"net.scaredrabbit.simplenetherite.SimpleNetheriteDataGenerator"
+			"net.scaredrabbit.simplenetherite.datagen.ModDataGeneration"
 		]
 	},
 	"mixins": [
