@@ -18,7 +18,7 @@ import net.scaredrabbit.simplenetherite.SimpleNetherite;
 import net.scaredrabbit.simplenetherite.item.ModItemGroup;
 
 public class ModBlocks  {
-    public static final Block NETHERITE_ORE = registerBlock("netherite_ore",
+    public static final Block NETHERITE_ORE = registerBlock("netherite_ore.json",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.NETHERITE);
     public static final Block DEEPSLATE_NETHERITE_ORE = registerBlock("deepslate_netherite_ore",

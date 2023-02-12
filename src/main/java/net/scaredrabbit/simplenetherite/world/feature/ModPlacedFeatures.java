@@ -24,10 +24,10 @@ public class ModPlacedFeatures {
 
         register(context, NETHERITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERITE_ORE_KEY),
                 modifiersWithCount(4, // VeinsPerChunk
-                        HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+                        HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(8), YOffset.aboveBottom(16))));
         register(context, OVERWORLD_NETHERITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.OVERWORLD_NETHERITE_ORE_KEY),
                 modifiersWithCount(8, // VeinsPerChunk
-                        HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+                        HeightRangePlacementModifier.uniform(YOffset.aboveBottom(0), YOffset.aboveBottom(-60))));
         register(context, END_NETHERITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_NETHERITE_ORE_KEY),
                 modifiersWithCount(12, // VeinsPerChunk
                         HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));

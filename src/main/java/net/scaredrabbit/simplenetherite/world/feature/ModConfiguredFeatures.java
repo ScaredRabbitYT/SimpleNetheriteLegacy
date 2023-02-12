@@ -19,7 +19,7 @@ import net.scaredrabbit.simplenetherite.block.ModBlocks;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?,?>> NETHERITE_ORE_KEY = registerKey("netherite_ore");
+    public static final RegistryKey<ConfiguredFeature<?,?>> NETHERITE_ORE_KEY = registerKey("netherite_ore.json");
     public static final RegistryKey<ConfiguredFeature<?,?>> OVERWORLD_NETHERITE_ORE_KEY = registerKey("deepslate_netherite_ore");
     public static final RegistryKey<ConfiguredFeature<?,?>> END_NETHERITE_ORE_KEY = registerKey("endstone_netherite_ore");
 
