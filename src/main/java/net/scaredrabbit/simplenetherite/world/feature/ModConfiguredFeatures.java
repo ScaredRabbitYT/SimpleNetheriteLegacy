@@ -19,12 +19,13 @@ import net.scaredrabbit.simplenetherite.block.ModBlocks;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?,?>> NETHERITE_ORE_KEY = registerKey("netherite_ore.json");
+    public static final RegistryKey<ConfiguredFeature<?,?>> NETHERITE_ORE_KEY = registerKey("netherite_ore");
     public static final RegistryKey<ConfiguredFeature<?,?>> OVERWORLD_NETHERITE_ORE_KEY = registerKey("deepslate_netherite_ore");
     public static final RegistryKey<ConfiguredFeature<?,?>> END_NETHERITE_ORE_KEY = registerKey("endstone_netherite_ore");
 
-    public static void bootstrap(Registerable<ConfiguredFeature<?,?>> context){
-        var placedFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
+    public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+        var placedFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.PLACED_FEATURE);
+
 
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
         RuleTest netherReplaceables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
