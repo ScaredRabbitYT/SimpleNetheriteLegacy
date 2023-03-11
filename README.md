@@ -13,13 +13,15 @@
 
 ### Developing addons
 Add this to your build.gradle:
-repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-dependencies {
-	        
-       implementation 'com.github.ScaredRabbitYT:SimpleNetherite:Tag'
-	}
 
+``` 
+repositories {
+  maven {
+    url maven { url 'https://jitpack.io' }
+  }
+}
+
+dependencies {
+  implementation 'com.github.ScaredRabbitYT:SimpleNetherite:<VERSION>'
+}
 
