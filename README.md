@@ -2,6 +2,7 @@
 
 [![](https://github.com/ScaredRabbitYT/Images/blob/patch-1/Downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
 [![](https://github.com/ScaredRabbitYT/Images/blob/patch-1/Version.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
+[![](https://jitpack.io/v/ScaredRabbitYT/SimpleNetherite.svg)](https://jitpack.io/#ScaredRabbitYT/SimpleNetherite)
 
 
 ### Information
