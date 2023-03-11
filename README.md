@@ -24,4 +24,6 @@ repositories {
 dependencies {
   implementation 'com.github.ScaredRabbitYT:SimpleNetherite:<VERSION>'
 }
+``` 
+Replace ``` <VERSION> ``` with a release tag for example: v.1.19.3-1.0
 
