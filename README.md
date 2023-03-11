@@ -11,3 +11,7 @@
 * Twitter: [@ScaredRabbitYT](https://twitter.com/ScaredRabbitYT)
 * [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
 
+### Developing addons
+Add this to your build.gradle:
+
+
