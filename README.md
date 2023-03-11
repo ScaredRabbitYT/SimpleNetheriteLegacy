@@ -1,4 +1,4 @@
-###### Simple Netherite
+# Simple Netherite
 
 
 Simple Netherite (SN)
