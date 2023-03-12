@@ -5,6 +5,8 @@
   "block.simplenetherite.netherite_ore": "Netherite Ore",
   "block.simplenetherite.deepslate_netherite_ore": "Deepslate Netherite Ore",
   "block.simplenetherite.endstone_netherite_ore": "Endstone Netherite Ore",
+  "block.simplenetherite.stone_netherite_ore": "Stone Netherite Ore",
+  "block.simplenetherite.raw_netherite_block": "Raw Netherite Block",
 
   "itemGroup.simplenetherite.netherite": "Simple Netherite"
 

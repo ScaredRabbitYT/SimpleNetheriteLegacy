@@ -20,14 +20,22 @@ import net.scaredrabbit.simplenetherite.item.ModItemGroup;
 
 public class ModBlocks  {
 
+    public static final Block RAW_NETHERITE_BLOCK = registerBlock("raw_netherite_block",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(3f).requiresTool(),
+                    UniformIntProvider.create(0, 0)), ModItemGroup.NETHERITE);
+
+    public static final Block STONE_NETHERITE_ORE = registerBlock("stone_netherite_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(3f).requiresTool(),
+                    UniformIntProvider.create(3, 7)), ModItemGroup.NETHERITE);
+
     public static final Block NETHERITE_ORE = registerBlock("netherite_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHERRACK).strength(4f).requiresTool(),
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.NETHERRACK).strength(1f).requiresTool(),
                     UniformIntProvider.create(3, 7)), ModItemGroup.NETHERITE);
     public static final Block DEEPSLATE_NETHERITE_ORE = registerBlock("deepslate_netherite_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.DEEPSLATE).strength(4f).requiresTool(),
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.DEEPSLATE).strength(5f).requiresTool(),
                     UniformIntProvider.create(3,7)), ModItemGroup.NETHERITE);
     public static final Block ENDSTONE_NETHERITE_ORE = registerBlock("endstone_netherite_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(4f).requiresTool(),
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(3f).requiresTool(),
                     UniformIntProvider.create(3,7)), ModItemGroup.NETHERITE);
 
     private static Block registerBlockWithoutItem(String name, Block block) {

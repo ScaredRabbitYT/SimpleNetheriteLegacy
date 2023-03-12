@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "simplenetherite:netherite_ore",
+    "simplenetherite:stone_netherite_ore",
     "simplenetherite:deepslate_netherite_ore",
     "simplenetherite:endstone_netherite_ore"
   ]

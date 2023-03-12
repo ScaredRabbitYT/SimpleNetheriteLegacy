@@ -14,20 +14,19 @@ import java.util.List;
 
 public class ModPlacedFeatures {
 
+public static final RegistryKey<PlacedFeature> STONE_NETHERITE_ORE_PLACED_KEY = registerKey("stone_netherite_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHERITE_ORE_PLACED_KEY = registerKey("netherite_ore_placed");
-    public static final RegistryKey<PlacedFeature> OVERWORLD_NETHERITE_ORE_PLACED_KEY = registerKey("nether_netherite_ore_placed");
     public static final RegistryKey<PlacedFeature> END_NETHERITE_ORE_PLACED_KEY = registerKey("end_netherite_ore_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
-
+        register(context, STONE_NETHERITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.STONE_NETHERITE_ORE_KEY),
+                modifiersWithCount(8, // VeinsPerChunk
+                        HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
         register(context, NETHERITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERITE_ORE_KEY),
                 modifiersWithCount(4, // VeinsPerChunk
                         HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(8), YOffset.aboveBottom(16))));
-        register(context, OVERWORLD_NETHERITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.OVERWORLD_NETHERITE_ORE_KEY),
-                modifiersWithCount(8, // VeinsPerChunk
-                        HeightRangePlacementModifier.uniform(YOffset.aboveBottom(0), YOffset.aboveBottom(-60))));
         register(context, END_NETHERITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_NETHERITE_ORE_KEY),
                 modifiersWithCount(12, // VeinsPerChunk
                         HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));

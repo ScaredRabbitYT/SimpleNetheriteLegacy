@@ -6,6 +6,15 @@
     "targets": [
       {
         "state": {
+          "Name": "simplenetherite:stone_netherite_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:stone_ore_replaceables"
+        }
+      },
+      {
+        "state": {
           "Name": "simplenetherite:deepslate_netherite_ore"
         },
         "target": {

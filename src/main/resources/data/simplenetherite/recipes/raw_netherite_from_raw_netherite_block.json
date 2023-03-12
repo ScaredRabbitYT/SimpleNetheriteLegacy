@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simplenetherite:raw_netherite_block"
+    }
+  ],
+  "result": {
+    "item": "simplenetherite:raw_netherite",
+    "count": 9
+
+  }
+}

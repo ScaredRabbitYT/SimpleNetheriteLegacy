@@ -1,5 +1,5 @@
 {
-  "feature": "simplenetherite:netherite_ore.json",
+  "feature": "simplenetherite:netherite_ore",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "simplenetherite:raw_netherite"
+    "item": "simplenetherite:stone_netherite_ore"
   },
   "result": "minecraft:netherite_ingot",
   "experience": 5,
-  "cookingtime": 200
+  "cookingtime": 20
 }
