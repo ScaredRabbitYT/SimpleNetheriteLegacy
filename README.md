@@ -24,15 +24,17 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.ScaredRabbitYT:SimpleNetherite:<VERSION>'
+  implementation 'com.github.ScaredRabbitYT:SimpleNetherite:<MINECRAFT_VERSION>-<MOD_VERSION>-<FABRIC_LOADER_VERSION>'
 }
 ``` 
-Replace ` <VERSION> ` with a release tag for example: v.1.19.3-1.0
+Replace ` <MINECRAFT_VERSION> ` with the minecraft version you want to use.
+Replace ` <MOD_VERSION> ` with the version of the mod you want to use.
+Replace ` <FABRIC_LOADER_VERSION ` with the version of the [Fabric Loader](https://fabricmc.net/use/installer/) you want to use.
 
 ### Installation instructions
 This mod requires (for now) Fabric, its very easy to setup so lets go!
 
-1. Download the [Fabric Loader](https://fabricmc.net/use/installer/)
+1. Download the [Fabric Loader](https://fabricmc.net/use/installer/).
 2. Download your desired version of [Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) from CurseForge. Make sure your installed fabric version matches with your installed [Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) version.
 3. Place the mod in the **mods** folder of your .minecraft folder. If you are unsure of where that is located, it is here: `../Users/you/AppData/roaming/.minecraft`.  
 
