@@ -3,11 +3,11 @@
 [![](https://github.com/ScaredRabbitYT/Images/blob/patch-1/Simple%20Netherite/Downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
 [![](https://github.com/ScaredRabbitYT/Images/blob/patch-1/Simple%20Netherite/Versions.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)  
 
-[![](https://jitpack.io/v/ScaredRabbitYT/SimpleNetherite.svg)](https://jitpack.io/#ScaredRabbitYT/SimpleNetherite)
+[![](https://jitpack.io/v/ScaredRabbitYT/SimpleNetherite.svg)](https://jitpack.io/#ScaredRabbitYT/SimpleNetherite) 
 
 
 ### Information
-[Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) spawns netherite ores in the Nether, Overworld and in the End. So basically netherite is available everywhere now. The mod aims to improve late game progression.
+[Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) spawns netherite ores in the Nether, Overworld and in the End. So basically netherite is available everywhere now. The mod aims to improve late game progression. This is the fabric version download the forge version [here]()
 
 ### Links
 * Twitter: [@ScaredRabbitYT](https://twitter.com/ScaredRabbitYT)
