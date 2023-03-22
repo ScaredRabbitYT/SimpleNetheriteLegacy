@@ -7,11 +7,12 @@
 
 
 ### Information
-[Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) spawns netherite ores in the Nether, Overworld and in the End. So basically netherite is available everywhere now. The mod aims to improve late game progression. This is the fabric version, check out the forge version [here]()
+[Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) spawns netherite ores in the Nether, Overworld and in the End. So basically netherite is available everywhere now. The mod aims to improve late game progression. This is the fabric version, check out the forge version [here](https://github.com/ScaredRabbitYT/SimpleNetherite-Reforged)
 
 ### Links
 * Twitter: [@ScaredRabbitYT](https://twitter.com/ScaredRabbitYT)
 * [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
+* [Simple Netherite Forge](https://github)
 
 ### Developing addons
 Add this to your build.gradle:
