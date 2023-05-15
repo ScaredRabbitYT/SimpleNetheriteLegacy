@@ -1,7 +1,7 @@
 # Simple Netherite
 
-[![](https://github.com/ScaredRabbitYT/Images/blob/patch-1/Simple%20Netherite/Simple%20Netherite%20Fabric/Downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
-[![](https://github.com/ScaredRabbitYT/Images/blob/patch-1/Simple%20Netherite/Simple%20Netherite%20Fabric/Versions.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)  
+[![](https://github.com/ScaredRabbitYT/resources/blob/patch-1/Simple%20Netherite/Simple%20Netherite%20Fabric/Downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
+[![](https://github.com/ScaredRabbitYT/resources/blob/patch-1/Simple%20Netherite/Simple%20Netherite%20Fabric/Versions.svg)](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)  
 
 [![](https://jitpack.io/v/ScaredRabbitYT/SimpleNetherite.svg)](https://jitpack.io/#ScaredRabbitYT/SimpleNetherite) 
 
