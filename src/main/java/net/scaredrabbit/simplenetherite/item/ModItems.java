@@ -14,7 +14,7 @@ public class ModItems {
             , new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(SimpleNetherite.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(SimpleNetherite.MODID, name), item);
     }
     public static void addItemsToItemGroups(){
         addToItemGroup(ModItemGroup.NETHERITE, RAW_NETHERITE);
@@ -25,7 +25,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        SimpleNetherite.LOGGER.debug("Registering Mod Items for " + SimpleNetherite.MOD_ID);
+        SimpleNetherite.LOGGER.debug("Registering Mod Items for " + SimpleNetherite.MODID);
         addItemsToItemGroups();
     }
 }

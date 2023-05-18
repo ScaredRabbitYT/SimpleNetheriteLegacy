@@ -21,8 +21,7 @@ import net.scaredrabbit.simplenetherite.item.ModItemGroup;
 public class ModBlocks  {
 
     public static final Block RAW_NETHERITE_BLOCK = registerBlock("raw_netherite_block",
-            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(3f).requiresTool(),
-                    UniformIntProvider.create(0, 0)), ModItemGroup.NETHERITE);
+            new Block(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(3f).requiresTool()), ModItemGroup.NETHERITE);
 
     public static final Block STONE_NETHERITE_ORE = registerBlock("stone_netherite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).sounds(BlockSoundGroup.STONE).strength(3f).requiresTool(),
@@ -39,22 +38,22 @@ public class ModBlocks  {
                     UniformIntProvider.create(3,7)), ModItemGroup.NETHERITE);
 
     private static Block registerBlockWithoutItem(String name, Block block) {
-        return Registry.register(Registries.BLOCK, new Identifier(SimpleNetherite.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(SimpleNetherite.MODID, name), block);
     }
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
-        return Registry.register(Registries.BLOCK, new Identifier(SimpleNetherite.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(SimpleNetherite.MODID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
-        Item item = Registry.register(Registries.ITEM, new Identifier(SimpleNetherite.MOD_ID, name),
+        Item item = Registry.register(Registries.ITEM, new Identifier(SimpleNetherite.MODID, name),
                 new BlockItem(block, new FabricItemSettings()));
         ItemGroupEvents.modifyEntriesEvent(tab).register(entries -> entries.add(item));
         return item;
     }
 
     public static void registerModBlocks() {
-        SimpleNetherite.LOGGER.debug("Registering ModBlocks for " + SimpleNetherite.MOD_ID);
+        SimpleNetherite.LOGGER.debug("Registering ModBlocks for " + SimpleNetherite.MODID);
     }
 }

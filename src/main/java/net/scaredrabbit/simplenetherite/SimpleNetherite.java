@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SimpleNetherite implements ModInitializer {
-	public static final String MOD_ID = "simplenetherite";
+	public static final String MODID = "simplenetherite";
 	public static final Logger LOGGER = LoggerFactory.getLogger("simplenetherite");
 
 	@Override
@@ -20,7 +20,7 @@ public class SimpleNetherite implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 
-
 		LOGGER.info("Loading Simple Netherite");
+
 	}
 }
