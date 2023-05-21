@@ -1,0 +1,13 @@
+jdk:
+  - openjdk17
+before_install:
+  - sdk install java 17.0.3-tem
+  - sdk use java 17.0.3-tem
+  - sdk install maven
+  - mvn -v
+install:
+  - mvn install -Dmaven.javadoc.skip=true -DskipTests
+env:
+- GROUP=com.github.ScaredRabbitYT
+- ARTIFACT=SimpleNetherite
+- VERSION=2.7.1-1.19.1
