@@ -13,7 +13,7 @@ import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
-import net.scaredrabbit.simplenetherite.SimpleNetherite;
+import net.scaredrabbit.simplenetherite.SimpleNetheriteFabric;
 import net.scaredrabbit.simplenetherite.block.ModBlocks;
 
 import java.util.List;
@@ -45,7 +45,7 @@ public class ModConfiguredFeatures {
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(SimpleNetherite.MODID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(SimpleNetheriteFabric.MOD_ID, name));
     }
 
     private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?, ?>> context,

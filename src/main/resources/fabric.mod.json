@@ -3,9 +3,9 @@
 	"id": "simplenetherite",
 	"version": "${version}",
 	"name": "SimpleNetherite",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Finding netherite is hard? Well not anymore! This mod aims to make it easier for people to find netherite.",
 	"authors": [
-		"Me!"
+		"ScaredRabbitNL"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.scaredrabbit.simplenetherite.SimpleNetherite"
+			"net.scaredrabbit.simplenetherite.SimpleNetheriteFabric"
 		],
 		"client": [
 			"net.scaredrabbit.simplenetherite.SimpleNetheriteClient"
@@ -30,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.12",
-		"minecraft": "~1.19.3",
+		"minecraft": ">=1.19.3",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
