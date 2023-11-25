@@ -19,7 +19,7 @@ This mod requires (for now) Fabric, its very easy to setup so lets go!
 
 1. Download the [Fabric Loader](https://fabricmc.net/use/installer/).
 2. Download your desired version of [Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) from CurseForge. Make sure your installed fabric version matches with your installed [Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) version.
-3. Place the mod in the **mods** folder of your .minecraft folder. If you are unsure of where that is located, it is here: `../Users/you/AppData/roaming/.minecraft`.  
+3. Place the mod in the **mods** folder of your .minecraft folder. If you are unsure of where that is located, it is here: `C:/Windows/Users/you/AppData/Roaming/.minecraft`.  
 
 There you go! You now have [Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) installed!
 
