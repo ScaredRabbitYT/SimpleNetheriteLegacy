@@ -14,24 +14,6 @@
 * [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-netherite)
 * [Simple Netherite Forge](https://github.com/ScaredRabbitYT/SimpleNetherite-Reforged)
 
-### Developing addons
-Add this to your build.gradle:
-
-``` 
-repositories {
-  maven {
-    url maven { url 'https://jitpack.io' }
-  }
-}
-
-dependencies {
-  implementation 'com.github.ScaredRabbitYT:SimpleNetherite:<MINECRAFT_VERSION>-<MOD_VERSION>-<FABRIC_LOADER_VERSION>'
-}
-``` 
-Replace ` <MINECRAFT_VERSION> ` with the minecraft version you want to use.
-Replace ` <MOD_VERSION> ` with the version of the mod you want to use.
-Replace ` <FABRIC_LOADER_VERSION ` with the version of the [Fabric Loader](https://fabricmc.net/use/installer/) you want to use.
-
 ### Installation instructions
 This mod requires (for now) Fabric, its very easy to setup so lets go!
 
