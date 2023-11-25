@@ -8,6 +8,6 @@
   "block.simplenetherite.stone_netherite_ore": "Stone Netherite Ore",
   "block.simplenetherite.raw_netherite_block": "Raw Netherite Block",
 
-  "itemGroup.simplenetherite.netherite": "Simple Netherite"
+  "itemgroup.netherite": "Simple Netherite"
 
 }

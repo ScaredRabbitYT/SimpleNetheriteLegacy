@@ -14,9 +14,10 @@ public class SimpleNetherite implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 		ModWorldGen.generateWorldGen();
 
-		ModItemGroup.registerItemGroup();
+
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 

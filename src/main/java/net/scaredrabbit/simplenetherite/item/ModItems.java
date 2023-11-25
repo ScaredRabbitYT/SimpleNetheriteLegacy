@@ -16,16 +16,9 @@ public class ModItems {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SimpleNetherite.MOD_ID, name), item);
     }
-    public static void addItemsToItemGroups(){
-        addToItemGroup(ModItemGroup.NETHERITE, RAW_NETHERITE);
-    }
-    public static void addToItemGroup(ItemGroup group, Item item){
-        ItemGroupEvents.modifyEntriesEvent(group).register(entries ->
-                entries.add(item));
-    }
 
     public static void registerModItems() {
         SimpleNetherite.LOGGER.debug("Registering Mod Items for " + SimpleNetherite.MOD_ID);
-        addItemsToItemGroups();
+
     }
 }
