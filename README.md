@@ -1,11 +1,11 @@
 # Simple Netherite (Legacy)
 ## ⚠️ This repository is not longer maintained in favour of a new with multiloader support ⚠️
-## Visit the new repository at [https://github.com/ScaredRabbitYT/SimpleNetherite](https://github.com/ScaredRabbitYT/SimpleNetherite)
+## Visit the new repository at [https://github.com/ScaredRabbitNL/ReworkedNetherite](https://github.com/ScaredRabbitNL/ReworkedNetherite)
 
 
 
 ### Information
-[Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) spawns netherite ores in the Nether, Overworld and in the End. So basically netherite is available everywhere now. The mod aims to improve late game progression. This is the fabric version, check out the forge version [here](https://github.com/ScaredRabbitYT/SimpleNetherite-Reforged)
+[Simple Netherite](https://www.curseforge.com/minecraft/mc-mods/simple-netherite) spawns netherite ores in the Nether, Overworld and in the End. So basically netherite is available everywhere now. The mod aims to improve late game progression. This is the fabric version, check out the forge version [here]([https://github.com/ScaredRabbitNL/SimpleNetherite-Reforged](https://github.com/ScaredRabbitNL/SimpleNetherite-Reforged-Legacy))
 
 ### Links
 * Twitter: [@ScaredRabbitYT](https://twitter.com/ScaredRabbitYT)
